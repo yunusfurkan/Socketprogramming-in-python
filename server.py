@@ -7,10 +7,8 @@ print('HOST IP:',host_ip)
 port = 9999
 socket_adress = (host_ip,port)
 
-#socket bind
 server_socket.bind(socket_adress)
 
-#socket listen
 server_socket.listen(5)
 print("Listening at:",socket_adress)
 #socket accept
